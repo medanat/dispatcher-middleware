@@ -64,7 +64,7 @@ function asyncMw2(data, next) {
   next();
 }
 
-function final (data) {
+function final(data) {
   console.log(data.x + data.y); // 7
 }
 
