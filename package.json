@@ -1,0 +1,32 @@
+{
+  "name": "dispatcher-middleware",
+  "version": "0.1.0",
+  "description": "A middleware control flow dispatcher for front-end and node environments",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medanat/dispatcher-middleware.git"
+  },
+  "author": "Yazan Medanat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medanat/dispatcher-middleware/issues"
+  },
+  "homepage": "https://github.com/medanat/dispatcher-middleware",
+  "engines": {
+    "node": "0.10.21"
+  },
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover _mocha --reporter spec --bail --check-leaks ./spec",
+    "test": "mocha --reporter spec --bail --check-leaks ./spec"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.5",
+    "karma": "^0.12.31",
+    "karma-browserify": "^3.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-mocha-reporter": "^0.3.2"
+  }
+}
