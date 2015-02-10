@@ -18,7 +18,8 @@
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover _mocha --reporter spec --bail --check-leaks ./spec",
-    "test": "mocha --reporter spec --bail --check-leaks ./spec"
+    "test": "mocha --reporter spec --bail --check-leaks ./spec",
+    "bundle": "browserify index.js > dispatcher-middleware.js"
   },
   "devDependencies": {
     "chai": "^1.10.0",
